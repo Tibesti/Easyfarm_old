@@ -1,0 +1,98 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <title>Easy Farm</title>
+         <link rel="stylesheet" href="./css/main.css">
+         <link rel="stylesheet" href="./css/bootstrap.min.css">
+         <link rel="stylesheet" href="./css/font-awesome.min.css">
+    </head>
+    <body class="classe">
+        <header>
+            <nav class="toggle-bar">
+                <span class="open-slide">
+                    <a href="#" onclick="openSlideMenu()">
+                        <svg width="30" height="30">
+                            <path d="M0,5 30,5" stroke=" #6cfa14" stroke-width="5"/>
+                            <path d="M0,14 30,14" stroke=" #6cfa14" stroke-width="5" />
+                            <path d="M0,23 30,23" stroke=" #6cfa14" stroke-width="5" />
+                        </svg>
+                    </a>
+                </span>
+                <ul class="navigation">
+                    <li><a href="#"><button class="btn1">Log out</button></a></li>
+                    <li><a href="#" class="li2">Signed in as Tobiloba</a></li>
+                    <li><a href="#" class="li2">Blog</a></li>
+                    <li><a href="#" class="li2">Home</a></li>
+                </ul>
+            </nav>
+            <div id="side-menu" class="side-nav">
+                <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+                <a href="#">Home</a>
+                <a href="#">Blog</a>
+                <a href="#">Signed in as Tobiloba</a>
+                <a href="#">Log out</a>
+                <ul style="list-style:none;">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="container">
+            <div>
+                <div class="col-sm-8">
+                Fill the form below to fix a consultation appoint ment with easy farm
+                    <div>
+                        <form>
+                            <label for="name">Name</label><br>
+                            <input class="form1" type="text" id="name" name="name" placeholder="Enter your name" required="required">
+                            <label for="email">Email</label><br>
+                            <input class="form1" type="text" id="email" name="email" placeholder="Enter your email" required="required">
+                            <label for="company">Company name</label><br>
+                            <input class="form1" type="text" id="company" name="company" placeholder="Enter your company name" required="required">
+                            <label>Describe the reason for consultation:</label><br>
+                            <textarea name="message" rows="7" cols="30" ></textarea><br>
+                            <button class="btn56 move"> Fix appointment</button>
+                        </form>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="">
+                        <div class="">
+                            <button class="btn56">Fund Wallet</button>
+                            <div class="">
+                                <p>Wallet Balance</p>
+                                <h1>N0.00</h1>
+                                <p>You can add an ATM card to your account by funding your account with as little as N50</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <ul class="social-link">
+                            <li class="col-xs-3 col-sm-3 col-md-3"><a href="#" class="fa fa-facebook black"></a></li>
+                            <li class="col-xs-3 col-sm-3 col-md-3"><a href="#" class="fa fa-twitter black"></a></li>
+                            <li class="col-xs-3 col-sm-3 col-md-3"><a href="#" class="fa fa-instagram black"></a></li>
+                            <li class="col-xs-3 col-sm-3 col-md-3"><a href="#" class="fa fa-linkedin black"></a></li>
+                        </ul>
+                        <div>
+                            <p class="place-center">Copyright &copy; 2019 EASY FARM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="./js/main.js"></script>
+    </body>
+</html>

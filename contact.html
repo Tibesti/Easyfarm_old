@@ -1,0 +1,115 @@
+<!doctype html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <meta name="description" content="">
+        <meta name="keywords" content="">
+        <title>Easy Farm</title>
+         <link rel="stylesheet" href="./css/main.css">
+         <link rel="stylesheet" href="./css/bootstrap.min.css">
+         <link rel="stylesheet" href="./css/font-awesome.min.css">
+    </head>
+    <body>
+        <header>
+            <nav class="toggle-bar">
+                <span class="open-slide">
+                    <a href="#" onclick="openSlideMenu()">
+                        <svg width="30" height="30">
+                            <path d="M0,5 30,5" stroke="#000" stroke-width="5" />
+                            <path d="M0,14 30,14" stroke="#000" stroke-width="5" />
+                            <path d="M0,23 30,23" stroke="#000" stroke-width="5" />
+                        </svg>
+                    </a>
+                </span>
+                <ul class="navigation">
+                    <li><a href="#">HOME</a></li>
+                    <li><a href="#">ABOUT</a></li>
+                    <li><a href="#">CONTACT</a></li>
+                    <li><a href="#">HIRE US</a></li>
+                    <li><a href="#">CONSULT US</a></li>
+                </ul>
+            </nav>
+            <div id="side-menu" class="side-nav">
+                <a href="#" class="btn-close" onclick="closeSlideMenu()">&times;</a>
+                <a href="#">HOME</a>
+                <a href="#">ABOUT</a>
+                <a href="#">CONTACT</a>
+                <a href="#">HIRE US</a>
+                <a href="#">CONSULT US</a>
+                <ul style="list-style:none;">
+                    <li><a href="#"><i class="fa fa-facebook"></i></a></li>
+                    <li><a href="#"><i class="fa fa-twitter"></i></a></li>
+                    <li><a href="#"><i class="fa fa-instagram"></i></a></li>
+                    <li><a href="#"><i class="fa fa-linkedin"></i></a></li>
+                </ul>
+            </div>
+        </header>
+        <div class="container">
+            <div class="row">
+                <div class="col-sm-12">
+                    <div class="col-sm-6">
+                        <h1 class="text45"> CONTACT EASY FARM</h1>
+                    </div>
+                    <div class="col-sm-6">
+                        <img src="./images/2480553.jpg"  class="illustration"/>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="formbox">
+            <h3 class="topics">FILL THE FORM BELOW TO CONTACT US</h3>
+            <form action="">
+                <label for="name">Name</label><br>
+                <input class="form1" type="text" id="name" name="name" placeholder="Enter your name" required="required">
+                <label for="email">Email</label><br>
+                <input class="form1" type="text" id="email" name="email" placeholder="Enter your email" required="required">
+                <label for="company">Company name</label><br>
+                <input class="form1" type="text" id="company" name="company" placeholder="Enter your company name" required="required">
+                <label>Message:</label><br>
+                <textarea name="message" rows="7" cols="30" ></textarea><br>
+                <button class="btn56 move"> Send Message</button>
+            </form>
+        </div>
+        <section id="subscribe">
+            <div class="container">
+                <div class="row">
+                    <div class="col-sm-10 col-sm-offset-1">
+                        <div class="row">
+                            <div class="col-sm-6">
+                                <h2 style="text-align:center;"><i class="fa fa-envelope-o"></i> JOIN THE LOOP</h2>
+                                <p class="place-center"> Subscribe Subscribe Subscribe Subscribe Subscribe Subscribe Subscribe Subscribe Subscribe Subscribe Subscribe Subscribe Subscribe </p>
+                            </div>
+                            <div class="col-sm-6 newsletter">
+                                <form id="newsletter">
+                                    <input class="form-control" type="email" name="email"  value="" placeholder="Enter Your email" >
+                                    <i class="fa fa-check"></i>
+                                </form>
+                                <p>Don't worry we will not use your email for spam</p>
+                            </div>    
+                        </div>
+                    </div>     
+                </div>
+            </div> 
+        </section>
+        <footer>
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-12 col-sm-12">
+                        <ul class="social-link">
+                            <li class="col-xs-3 col-sm-3 col-md-3"><a href="#" class="fa fa-facebook black"></a></li>
+                            <li class="col-xs-3 col-sm-3 col-md-3"><a href="#" class="fa fa-twitter black"></a></li>
+                            <li class="col-xs-3 col-sm-3 col-md-3"><a href="#" class="fa fa-instagram black"></a></li>
+                            <li class="col-xs-3 col-sm-3 col-md-3"><a href="#" class="fa fa-linkedin black"></a></li>
+                        </ul>
+                        <div>
+                            <p class="place-center">Copyright &copy; 2019 EASY FARM</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <script src="./js/main.js"></script>
+    </body>
+</html>
